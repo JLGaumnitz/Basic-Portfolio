@@ -1,35 +1,36 @@
 
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    border-bottom: #cccccc 2px solid;
-    font-size: 36px;
-    line-height: 150%;
-    float: left;
-    width: 33.3%;
-    position: relative;
-    left:80px;
+body {
+    background-image: url('../../assets/images/smooth_wall.png');
+    margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-.navigation {
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    width: 66.6%;
-    color: grey;
-    margin-top: 0;
-
-    font-size: 12px
-}
-
-.full-width-background-box {
-    width: 100%;
+.header {
     background-color: #ffffff;
-    padding: 0px;
+    border-bottom: #cccccc 2px solid;
+    margin: 0 0 20px 80 px;
+
 }
+
+.myName {
+    width: 200px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 0;
+  }
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;background-color: #4aaaa5;
+    color:#ffffff;
+    line-height 200%;
+}
+.navBar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    }
 
 .about-me-box {
-    width: 960px;
+    max-width: 960px;
     padding: 20px;
     background-color: white;
     border: 1px solid gray;
@@ -38,25 +39,14 @@ h1 {
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5; 
-    background-color: #ffffff;
     border-bottom: #cccccc 2px solid;
+    font-size: 36px;
+    line-height: 45px;
     margin-top: 0;
     margin-bottom: 20px;
     padding:20px;
-    font-size: 36px;
-    line-height: 45px
-    font-align: left;
-}
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-    margin: 0;
-    font: size 24px;
-    line-height: 36px;
-    padding: 0 20px 20px 20px;
-  }
+}
 
 #bio-image {
     width: 200px;
@@ -66,13 +56,18 @@ body {
     padding: 0 20px 20px 20px;
   }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: ##777777;
+}
 footer {
     margin: 0;
     padding: 20px;
     background: #666666;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #ffffff;
     text-align: center;
-    border-color: #4aaaa5;
     border-width: thick;
-  }
+    border-color: #4aaaa5;
+}
