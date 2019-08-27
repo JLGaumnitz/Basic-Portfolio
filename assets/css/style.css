@@ -1,0 +1,78 @@
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-bottom: #cccccc 2px solid;
+    font-size: 36px;
+    line-height: 150%;
+    float: left;
+    width: 33.3%;
+    position: relative;
+    left:80px;
+}
+
+.navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 66.6%;
+    color: grey;
+    margin-top: 0;
+
+    font-size: 12px
+}
+
+.full-width-background-box {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px;
+}
+
+.about-me-box {
+    width: 960px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5; 
+    background-color: #ffffff;
+    border-bottom: #cccccc 2px solid;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding:20px;
+    font-size: 36px;
+    line-height: 45px
+    font-align: left;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    margin: 0;
+    font: size 24px;
+    line-height: 36px;
+    padding: 0 20px 20px 20px;
+  }
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float:left;
+    padding: 0 20px 20px 20px;
+  }
+
+footer {
+    margin: 0;
+    padding: 20px;
+    background: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border-color: #4aaaa5;
+    border-width: thick;
+  }
