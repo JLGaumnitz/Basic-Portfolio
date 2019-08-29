@@ -3,44 +3,56 @@ body {
     background-image: url('../../assets/images/smooth_wall.png');
     margin: 0;
     padding: 0;
-}
+    }
 
 .header {
-    background-color: #ffffff;
     border-bottom: #cccccc 2px solid;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 0px;
-}
+    margin: 0 auto;
+    max-width: 960px;
+    height: 100%;
+    }
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+    }
 
 .myName {
     width: 400px;
+    display: inline-flex;
+    height: 100%;
+    margin: 0;
+    vertical-align: middle;
     text-align: center;
-    margin-left: 160px;
-    line-height: 150%
-  }
+    }
 
-h1 {
+.myName h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;background-color: #4aaaa5;
     color:#ffffff;
     font-size: 36px;
+    margin: 0;
+    padding: 20px;
     }
 
 .navBar {
+    display: inline;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+    display: inline-block;
+    float: right;
     }
+
+.navBar a {
+    margin-left: 30px;
+    text-decoration: none;
+}
 
 .about-me-box {
     max-width: 960px;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
-    margin-left: 160px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 80px auto;
 }
 
 h2 {
@@ -65,7 +77,7 @@ h2 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 150%;
-    color: ##777777;
+    color: #777777;
     margin-left: 20px;
 }
 
